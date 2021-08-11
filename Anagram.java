@@ -46,10 +46,14 @@ public class Anagram {
 			System.out.println(A2[i]);
 	
 		}
+			
 		//printing the sorted String array
 		System.out.println("First string Array Sort :"+Arrays.toString(A1));
 		System.out.println("Second string Array Sort :"+Arrays.toString(A1));
-
+		if(Arrays.equals(A1, A2)) {
+			System.out.println("Given String is Anagram");
+		}
+		
 
 	
 	}
